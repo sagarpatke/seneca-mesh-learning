@@ -1,0 +1,21 @@
+{
+  "name": "seneca-mesh-learning",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter=landing"
+  },
+  "author": "Sagar Patke <sagarpatke@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "async": "^2.1.5",
+    "seneca": "^3.3.0",
+    "seneca-balance-client": "^0.6.0",
+    "seneca-mesh": "^0.10.0"
+  }
+}
